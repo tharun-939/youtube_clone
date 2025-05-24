@@ -21,7 +21,7 @@ const Feed = () => {
         <Box sx={{height: {sx: 'auto', md: '92vh'}, borderRight: '1px solid #3d3d3d', px: {sx: 0, md: 2}}}>
             <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} /> 
             <Typography className='copyright' variant='body2' sx={{mt: 1.5, color: "#fff"}}>
-                copyright 2022 JSM Media 
+                copyright 2025 JSM Media 
             </Typography>
         </Box>
         <Box sx={{overflowY: 'auto', height: '90vh', flex: 2}}>
