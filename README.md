@@ -1,3 +1,19 @@
+YouTube Clone
+
+This is a YouTube Clone Web Application built using React, Material UI, and RapidAPI's YouTube Data API. The project demonstrates modern frontend development practices including component-based architecture, responsive design, dynamic routing, and API integration using Axios.
+🚀 Features
+   Search Functionality: Users can search for videos using the search bar. The app fetches related video results via RapidAPI.
+   Category Filtering: A responsive sidebar with video categories. Clicking a category loads only videos related to that category.
+   Responsive Design:
+        On screens wider than 900px, the sidebar appears vertically.
+        On narrower screens, the sidebar shifts to a horizontal layout.
+    Video Playback: Uses react-player to render and play YouTube videos directly within the app.
+    Routing with React Router:
+        Dynamic routing is implemented to handle search results, video details, and categories.
+        The app shows the home feed by default and loads specific components based on route matching.
+    API Limit Handling: The app handles RapidAPI’s quota limits by loading up to 50 videos per request across all sections—home           feed, category feed, search feed, and individual video suggestions.
+    Minimal CSS: Styling is handled primarily through Material UI and inline styles. Only one external CSS file is used for               certain button and element stylings.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +55,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
